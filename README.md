@@ -14,8 +14,17 @@ Similarly, any issues will be found under the issues tab.
 
 The main branch is protected. If you desire to contribute to the project, you can take any open issue.
 
+New functionality must have 80% unit test coverage. 
+
 Follow the existing formatting guidelines, and do not include formatting changes in a pull request with other changes. If you have both formatting and functional changes, please create two separate pull requests. 
 
-## Prerequisites
+## Build/deployment information
 In order to run the application, the user must have Node.js installed. 
-Once the user has a copy of the application  
+
+Once the user has a copy of the application, the user can simply run the following command in the root folder of the repo to run the project:
+`node index.js`
+
+## Roadmap
+If there are any issue, please create a new issue in the issue tab. Feel free to tag it as you deem appropriate. Abuse of tags will result in a ban.
+
+The project currently maintains a single main branch. Once the project is more than a month old, there will be a STABLE branch created. Changes made to MAIN will be brought into stable after a 2 week period
